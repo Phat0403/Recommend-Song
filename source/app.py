@@ -6,7 +6,7 @@ def embed_spotify_tracks(tracks_df, width=300, height=80):
     if not isinstance(tracks_df, pd.DataFrame):
         st.warning('No track in your playlist exist in my data')
         return
-    st.write("## Recommended Songs 🎵")
+    st.write("## :rainbow[Recommended Songs] 🎵")
     for _, row in tracks_df.iterrows():
         track_uri = row['track_uri']
         track_id = track_uri.split(":")[-1]
@@ -28,7 +28,7 @@ def main():
     st.title(':green[Spotify Recommendation System] 🎵')
     
     # Load track data
-    tracks_df = pd.read_csv('processed_data.csv')
+    tracks_df = pd.read_csv('dataforapp.csv')
     recommend = ''
     if "input_type" not in st.session_state:
         st.session_state["input_type"] = ''

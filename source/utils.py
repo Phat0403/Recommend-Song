@@ -75,5 +75,3 @@ def recommend_songs(df, playvec_list, k=10):
     final_recommendations = recommended_songs.head(k)
 
     return final_recommendations[['track_name', 'artist_name', 'track_uri', 'cosine_similarity']]
-df = pd.read_csv('processed_data.csv')
-

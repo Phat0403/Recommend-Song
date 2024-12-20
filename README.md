@@ -1,4 +1,5 @@
 # Recommend-Song
+Demo app: https://spotifyrecommendation.streamlit.app
 Data set, tới phần get popularity và release_date: https://drive.google.com/file/d/1tXLVJou2PtpDtSrxWj5e2o0GCQQomFFw/view?usp=sharing
 
 
@@ -7,3 +8,4 @@ Data sau khi xử lý, dành cho modeling (chưa có lyrics,...):
 
 Data cho eda (không có geniusID):
 https://drive.google.com/file/d/1RzpqZDvr6iMXNzx7QesgsxEnZxta3mrG/view?usp=sharing
+
